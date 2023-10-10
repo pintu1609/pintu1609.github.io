@@ -1,6 +1,11 @@
 import React from 'react'
 
+
 const HomeItem = () => {
+
+  
+
+
  const handleGitHubClick =()=>{
     const gitHubUrl = 'https://github.com/pintu1609';
     window.open(gitHubUrl, '_blank');
@@ -27,10 +32,10 @@ const HomeItem = () => {
   return (
     <div>
       <div className="classname d-flex justify-content-between" style={{padding:'50px 60px'}}>
-        <div style={{color:'#001c55', marginTop:'40px'}}>
+        <div style={{color:'#001c55', marginTop:'40px' , width:'50vw', padding:'0 2vw'}}>
             <h1 style={{fontSize:70}}>Pintu Kumar</h1>
             <p style={{color:'#7f8daa', fontSize:20, fontWeight:'bold', lineHeight:'2'}}>
-            A passionate individual who always thrives to work <br /> on end to end products which develop sustainable <br /> and scalable social and technical systems to create <br /> impact.
+            A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
             </p>
             <div className='d-flex 'style={{margin:'40px 0'}}>
                 <div className="text-center mx-2" >
@@ -54,9 +59,9 @@ const HomeItem = () => {
                 </div>
             </div>
 
-            <button type="button" className="btn btn-primary "style={{background:'#001c55', color:'white', fontSize:20, marginLeft:'20px' , cursor:'pointer'}} onClick={handleGitHubClick}><i className="fa-solid fa-star fa-sm mx-2" style={{color: '#cdb01d'}}></i>Star Me On Github</button>
+            <button type="button" className=" button-hover " onClick={handleGitHubClick}><i className="fa-solid fa-star fa-sm mx-2" style={{color: '#cdb01d'}}></i>Star Me On Github</button>
         </div>
-        <div className='mx-2'>
+        <div className='mx-2 d-flex justify-content-center align-items-center'>
         <img src="Images/landing.jpg" className="img-fluid rounded-circle" alt="..." style={{marginTop:'30px', width:'45vw', height:'70vh', padding:0}}/>
         </div>
       </div>
