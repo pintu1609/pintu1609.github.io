@@ -1,4 +1,5 @@
 import React from 'react'
+import '../responsivecss/HomeItem.css'
 
 
 const HomeItem = () => {
@@ -31,7 +32,7 @@ const HomeItem = () => {
     
   return (
     <div>
-      <div className="classname d-flex justify-content-between" style={{padding:'50px 60px'}}>
+      <div className="Homedetails d-flex justify-content-between" style={{padding:'50px 60px'}}>
         <div style={{color:'#001c55', marginTop:'40px' , width:'50vw', padding:'0 2vw'}}>
             <h1 style={{fontSize:70}}>Pintu Kumar</h1>
             <p style={{color:'#7f8daa', fontSize:20, fontWeight:'bold', lineHeight:'2'}}>

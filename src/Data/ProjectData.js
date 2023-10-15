@@ -71,17 +71,8 @@ const projectdata=[
                   "projectlink":"https://github.com/pintu1609/Learning-app-Grader",
                   "user_id":6
       
-              },
-              {
-                "image":[{"img":<i className="fa-brands fa-android fa-2xl mx-2 my-4" style={{color: '#2ab427'}}></i>,
-              "subtitle":"Android Studio"}],
-                "title":"Ecommerce App:thecart",
-                "duration":"july 2022 - Nov. 2022",
-                "body":"E-commerce, powered by mobile technology, reshapes global shopping habits. 'thecart,' an Android app, simplifies online shopping with product sections, banners, tracking, and Firebase data management, fueling the rapid growth of the E-commerce market.",
-                "projectlink":"https://github.com/rajandu/thecart2",
-                "user_id":7
-    
-            }
+              }
+              
 
 
              //dumi template

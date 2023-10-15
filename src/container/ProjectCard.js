@@ -3,6 +3,12 @@ import projectdata from '../Data/ProjectData'
 import ProjectItem from './ProjectItem'
 
 const ProjectCard = () => {
+
+   const handleMoreProjectClick=()=>{
+      const projectlink='https://github.com/pintu1609';
+      window.open(projectlink, '_blank')
+    }
+
   return (
     <div>
       <div className="project" style={{padding:'20px 60px'}}>
@@ -14,7 +20,11 @@ const ProjectCard = () => {
 
         })}
         </div>
-        
+        <div className='text-center'>
+
+        <button type="button " className=" button-hover" onClick={handleMoreProjectClick}>More Project</button>
+        </div>
+
       </div>
     </div>
   )

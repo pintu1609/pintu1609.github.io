@@ -36,8 +36,8 @@ const Degree = () => {
                     </div>
                     <div className="card-body"style={{color:'#001c55', fontSize:18}}>
                         
-                        <p className="card-text" ><i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i> I have studied basic Information Technology subjects like DS, Algorithms, DBMS, OS, CA, AI etc.</p>
-                        <p className="card-text"> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i>Apart from this, I have done courses on Full Stack Development & Python.</p>
+                        <p className="card-text" ><i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i> I proudly possess a solid grasp of Information Technology, as evidenced by my achievements in key subjects like DS, Algorithms, DBMS, OS, CA, AI etc.</p>
+                        <p className="card-text"> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i>I have done Several courses in Full Stack Development & Python with Industrial and RealLife Project.</p>
 
                         <p className="card-text"> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i> I was in top 10% of students in Entrance Exam Conducted by DUET. </p>
 

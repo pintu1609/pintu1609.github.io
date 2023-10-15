@@ -1,9 +1,8 @@
 import React from 'react'
-
 const WorkIntershipItem = (props) => {
   return (
     <div>
-      <div className="card" style={{color:'#001c55'}}>
+      <div className="card my-3" style={{color:'#001c55'}}>
             <div className='content d-flex'>
                 <div className="image d-flex align-items-center mx-2">
                     <img src={props.image} className="card-img-top rounded-circle"  style={{width:70, height:70}} alt="..."/>
