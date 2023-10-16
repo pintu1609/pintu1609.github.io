@@ -15,7 +15,7 @@ const Navbar = () => {
 
 <nav className="navbar navbar-expand-lg  " >
   <div className="container-fluid ">
-    <Link className="navbar-brand" style={{color:'#001c55', fontWeight:'bold', fontSize:40, fontFamily: 'Ballet , cursive'}} to="/">Pintu Kumar</Link>
+    <Link className="navbar-brand"  to="/"><img src="Images/logo_name.png" className="rounded" style={{height:'55px', padding:'3px 6px'}}  alt="..."/></Link>
     <button className={`navbar-toggler ${isMenuOpen ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isMenuOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={() => setIsMenuOpen(!isMenuOpen)}>
       <span className="navbar-toggler-icon"></span>
     </button>

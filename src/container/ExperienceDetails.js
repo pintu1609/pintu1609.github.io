@@ -19,7 +19,7 @@ const ExperienceDetails = () => {
                         <h4 style={{color:'#001c55', fontSize:30}}>
                             Work and Internship
                         </h4>
-                        <p  style={{ fontSize:20 , textAlign:'center'}}>I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.</p>
+                        <p  style={{ fontSize:20 , textAlign:'center'}}>I have worked with many evolving startups as SD and Android Developer, Designer and Software Architect. I love organising events and that is why I am also involved with many opensource communities as a representative.</p>
                     </div>
                 </div>
             </div>
