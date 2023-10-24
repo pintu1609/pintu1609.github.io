@@ -1,4 +1,5 @@
 import React from 'react'
+import '../responsivecss/Degrees.css'
 
 const Degree = () => {
     const handleWebsite1Click=()=>{
@@ -10,20 +11,20 @@ const Degree = () => {
       <div className="degree" style={{padding:'20px 80px'}}>
         <div className="degrees d-flex flex-column justify-content-center align-items-center">
 
-                <h2 className='conatct' style={{color:'#001c55', paddingTop:10, paddingBottom:30 , fontSize:35, fontWeight:'bold', paddingLeft:'12vw' }}>
+                <h2 className='heading' style={{color:'#001c55', paddingTop:10, paddingBottom:30 , fontSize:35, fontWeight:'bold', paddingLeft:'12vw' }}>
                     Degrees Recevied or Pursuing
                 </h2>
-            <div className="content d-flex justify-content-between">
-                <div className="image mx-4 d-flex align-items-center">
+            <div className="education-content d-flex justify-content-between">
+                <div className="colledge-logo mx-4 d-flex align-items-center">
                     <div className="text-center mx-2" >
         
-                        <img src="Images/du.jpeg" className="rounded-circle" style={{height:'36vh', width:'20vw', }} alt="..." />
+                        <img src="Images/du.jpeg" className="du rounded-circle" style={{height:'36vh', width:'20vw', }} alt="..." />
                     </div>
                 </div>
 
             
-            <div className="about">
-                <div className="card" style={{borderRadius:15}} >
+            <div className="education-about">
+                <div className="education-card" style={{borderRadius:15}} >
                     <div className="head " style={{color:'#001c55', background:'#85b7d5', padding:'0px 5px', borderRadius:'15px 15px 0 0'}}>
                     <div className='title d-flex justify-content-between my-3'>
                     <h1 className="card-title" style={{fontSize:25, fontWeight:'bold'}}>Cluster Innovation Centre, University Of Delhi </h1>

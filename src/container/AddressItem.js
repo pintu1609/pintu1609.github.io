@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../responsivecss/AddressItem.css'
 const AddressItem = () => {
     const handleAddressClick=()=>{
         const latitude = '28.705240';
@@ -14,12 +14,12 @@ const AddressItem = () => {
     <div>
         <div className="address" style={{padding:'0 60px', paddingBottom:50}}>
             <div className="add d-flex justify-content-between">
-                <div className="img" style={{}}>
-                <img src="Images/address.png" className="img-fluid rounded" alt="..." style={{width:'40vw', height:'50vh'}}/>
+                <div className="address-img" style={{}}>
+                <img src="Images/address.png" className="address-image rounded" alt="..." style={{width:'40vw', height:'50vh'}}/>
 
                 </div>
 
-                <div className="content d-flex flex-column justify-content-center align-items-center" style={{width:'50vw', paddingLeft:'10vw'}}>
+                <div className="address-content d-flex flex-column justify-content-center align-items-center" style={{width:'50vw', paddingLeft:'10vw'}}>
                 <h2 className='conatct' style={{color:'#001c55', paddingTop:10, paddingBottom:10 , fontSize:30 }}>
                     Address
                 </h2>

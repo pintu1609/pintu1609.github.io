@@ -1,0 +1,16 @@
+@media (max-width: 955px){
+
+    .education{
+        padding: 20px 10px !important;
+    }
+    .educationitem{
+        display: flex;
+        flex-direction: column;
+    }
+    .education-img{
+        width: 100% !important;
+    }
+    .contact{
+        padding-top: 40px !important;
+    }
+}

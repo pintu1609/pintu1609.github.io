@@ -1,4 +1,5 @@
 import React from 'react'
+import'../responsivecss/SkillItem.css'
 
 const SkillsItem = () => {
   return (
@@ -13,9 +14,9 @@ const SkillsItem = () => {
         
 
      
-      <div className="web d-flex ">
+      <div className=" full-stack  d-flex ">
 
-        <div className="img mx-5 d-flex justify-content-center align-items-center">
+        <div className="fullstack-image d-flex justify-content-center align-items-center " style={{margin:'0 3rem'}}>
         <img src="Images/fullstack.png" className="img-fluid" alt="..." style={{width:'50vw', height:'60vh' , borderRadius:40}}/>
 
         </div>
@@ -57,7 +58,7 @@ const SkillsItem = () => {
            </div>
             </div>
             
-            <div className='d-flex flex-column my-5' style={{color:'#7f8daa', fontSize:20}} >
+            <div className='content d-flex flex-column my-5' style={{color:'#7f8daa', fontSize:20}} >
                 <p> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i>Building responsive website front end using React-Redux and Bootstrap</p>
                 <p> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i>Developing mobile applications using React Native and For Database we using MongoDB, MySQL</p>
                 <p> <i className="fa-solid fa-bolt mx-2" style={{color: '#e7820d'}}></i>Creating application backend in Node, Express, PHP & Mongoose</p>
@@ -70,9 +71,9 @@ const SkillsItem = () => {
       
 
 
-      <div className="web d-flex ">
+      <div className="ux-design d-flex ">
 
-        <div className="img mx-5 d-flex justify-content-center align-items-center">
+        <div className="ux-img  d-flex justify-content-center align-items-center" style={{margin:'0 3rem'}}>
         
 
         <img src="Images/ui.jpg" className="img-fluid rounded-circle" alt="..." style={{width:'50vw', height:'60vh'}}/>

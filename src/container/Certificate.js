@@ -1,6 +1,7 @@
 import React from 'react'
 import certificateData from '../Data/CertificateData'
 import CertificateItem from './CertificateItem'
+import '../responsivecss/Certificate.css'
 
 const Certificate = () => {
   return (
@@ -12,10 +13,10 @@ const Certificate = () => {
                     Certificates
                 </h2>
                 <div className="certficatesitemdetails " style={{padding:35, }}>
-                    <div className="row justify-content-center">
+                    <div className="row d-flex justify-content-center">
                    {certificateData.map((element)=>{
                        
-                          return  <div className="col-md-4" key={element.user_id} style={{justifyContent:'center'}}>
+                          return  <div className="col-md-4 d-flex" key={element.user_id} style={{justifyContent:'center',}}>
                                      <CertificateItem title={element.title} image={element.image} imageurl={element.imageUrl}/>
                                  </div>
                         

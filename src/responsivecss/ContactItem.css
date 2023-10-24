@@ -1,0 +1,20 @@
+@media (max-width: 659px){
+    .contactme{
+        padding: 20px 10px !important;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img{
+        width: 100% !important;
+    }
+    .photo{
+        width: 70% !important;
+        height: 40vh !important;
+    }
+    .cont{
+        width: 100% !important;
+        padding: 10px !important;
+    }
+}

@@ -1,0 +1,12 @@
+
+
+
+@media (max-width: 767px){
+    .certificate-card{
+        width: 100% !important;
+    }
+    .card-img-top{
+        width: 60vw !important;
+    }
+
+}

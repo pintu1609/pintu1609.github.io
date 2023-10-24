@@ -1,4 +1,5 @@
 import React from 'react'
+import '../responsivecss/CertificateItem.css'
 
 const CertificateItem = (props) => {
    const handleMoreClick=()=>{
@@ -7,12 +8,12 @@ const CertificateItem = (props) => {
     }
   return (
     <div>
-         <div className="card mx-3 my-3" style={{width: '25vw', background:'#edf9fe', borderRadius:15}}>
+         <div className="certificate-card mx-3 my-3" style={{width: '25vw', background:'#edf9fe', borderRadius:15}}>
               <div>
            
 
                      
-                    <img src={props.image} className="card-img-top"  style={{height:'10rem', borderRadius:'15px 15px 0 0', cursor:'pointer', }} alt="..."   onClick={handleMoreClick}/>
+                    <img src={props.image} className="card-img-top"  style={{height:'35vh',  borderRadius:'15px 15px 0 0', cursor:'pointer', }} alt="..."   onClick={handleMoreClick}/>
                 
               
              </div>

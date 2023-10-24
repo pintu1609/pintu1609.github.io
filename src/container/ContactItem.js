@@ -1,4 +1,5 @@
 import React from 'react'
+import '../responsivecss/ContactItem.css'
 
 const ContactItem = () => {
 
@@ -33,14 +34,14 @@ const ContactItem = () => {
     <div>
         <div className="contactme"  style={{padding:'50px  60px'}}>
         <div className="contact d-flex justify-content-between">
-            <div className="img d-flex justify-content-center align-items-center" style={{width:'40vw'}}>
+            <div className="contact-img d-flex justify-content-center align-items-center" style={{width:'40vw'}}>
            
-            <img src="Images/Pintu_Kumar.jpeg" className="img-fluid rounded-circle" alt="..." style={{width:'40vw', height:'80vh', border:'4px solid #001c55 '}}/>
+            <img src="Images/Pintu_Kumar.jpeg" className="photo rounded-circle" alt="..." style={{width:'40vw', height:'80vh', border:'4px solid #001c55 '}}/>
 
             </div>
           
             <div className="cont d-flex flex-column justify-content-center align-items-center" style={{width:'50vw', paddingLeft:'10vw'}}>
-                <h2 className='conatct' style={{color:'#001c55', paddingTop:50, paddingBottom:20 , fontSize:50 }}>
+                <h2 className='conatct' style={{color:'#001c55', paddingTop:50, paddingBottom:20 , fontSize:45 }}>
                     Contact Me
                 </h2>
                 <p style={{color:'#7f8daa', fontSize:20 , lineHeight:'1.5', textAlign:'center'}}>I am available on almost every social media. You can  message me, I will reply within 24 hours. I can help you with FullStack, AI, React, Android, and  Opensource Development.</p>
