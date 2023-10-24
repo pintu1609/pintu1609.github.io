@@ -7,7 +7,7 @@ const EducationItem = () => {
       <div className="education" style={{padding:'10px 60px', paddingBottom:20}}>
         <div className="educationitem d-flex justify-content-between">
             <div className="education-img" style={{width:'50vw' }}>
-            <img src="Images/education.svg" className="img-fluid rounded" alt="..." style={{width:'40vw', height:'80vh'}}/>
+            <img src="Images/education.svg" className="education-img-fluid rounded" alt="..." style={{width:'40vw', height:'80vh'}}/>
 
             </div>
             <div className="content d-flex flex-column  align-items-center" >

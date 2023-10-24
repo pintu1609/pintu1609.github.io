@@ -1,0 +1,23 @@
+@media (max-width: 750px){
+
+    .card-title{
+        font-size: 20px !important;
+    }
+   
+    .tech{
+        display: flex;
+        flex-direction: column;
+    }
+    .Duration{
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 400px){
+    
+    .card-text{
+        font-size: 14px !important;
+    }
+}
+

@@ -1,0 +1,21 @@
+@media(max-width: 750px){
+    .experience-details{
+        padding: 20px 10px !important;
+    }
+    .detailsitem{
+        display: flex;
+        flex-direction: column;
+    }
+    .exp-details{
+        margin: 0 0 !important;
+    }
+    /* .experience-para{
+        font-size: 16px !important;
+    } */
+}
+
+@media(max-width: 400px){
+    .experience-para{
+        font-size: 16px !important;
+    }
+}

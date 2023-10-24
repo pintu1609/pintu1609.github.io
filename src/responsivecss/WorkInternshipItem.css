@@ -1,0 +1,44 @@
+@media (max-width: 770px){
+    .work-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .company-logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px !important;
+    }
+    .company-img-top{
+        width: 15% !important;
+        height: 15% !important;
+    }
+    .work-text{
+        padding:0 10px 10px 10px !important ;
+    }
+}
+
+@media (max-width: 560px){
+    .work-detail{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 450px){
+    .work-text{
+        font-size: 14px !important;
+    }
+    .work-title{
+        font-size: 18px !important;
+    }
+    .work-subtitle{
+        font-size: 16px !important;
+    }
+    .work-year{
+        font-size: 16px !important;
+    }
+    .work-location{
+        font-size: 16px !important;
+    }
+    
+}

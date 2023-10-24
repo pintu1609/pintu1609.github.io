@@ -1,6 +1,7 @@
 import React from 'react'
 import projectdata from '../Data/ProjectData'
 import ProjectItem from './ProjectItem'
+import '../responsivecss/ProjectCard.css'
 
 const ProjectCard = () => {
 

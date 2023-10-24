@@ -1,0 +1,26 @@
+@media (max-width: 750px){
+    .projectdetails{
+        padding: 20px 10px !important;
+    }
+    .project-det{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px !important;
+    }
+    .image{
+        padding:20px 20px 0px 20px !important;
+        width: 100% !important;
+    }
+    .details{
+        padding: 0 10px !important;
+    }
+    .project-title{
+        padding: 20px 10px !important;
+    }
+}
+
+@media(max-width: 400px){
+    .project-para{
+        font-size: 16px !important;
+    }
+}
