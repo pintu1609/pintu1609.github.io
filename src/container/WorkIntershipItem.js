@@ -10,7 +10,7 @@ const WorkIntershipItem = (props) => {
                     <img src={props.image} className="company-img-top rounded-circle"  style={{width:70, height:70}} alt="..."/>
                 </div>
                     <div className="card-work">
-                        <div className='work-detail d-flex justify-content-between  my-2' >
+                        <div className='work-detail d-flex justify-content-between  my-2 mx-2' >
                         <div className='d-flex flex-column'>
                             <h4 className="work-title">{props.title}</h4>
                         <h6 className='work-subtitle'> {props.company}</h6>
@@ -21,7 +21,7 @@ const WorkIntershipItem = (props) => {
                     <h6 className='work-location'> {props.location}</h6>
                     </div>
                     </div>
-                    <p className="work-text " style={{fontSize:17}}>{props.body}</p>
+                    <p className="work-text mx-2" style={{fontSize:17}}>{props.body}</p>
                     </div>
             </div>
         </div>
