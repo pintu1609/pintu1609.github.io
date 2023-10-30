@@ -22,7 +22,7 @@ const ContactItem = () => {
         window.open(gitHubUrl, '_blank');
      }
      const handleTwitterClick=()=>{
-        const gitHubUrl = '';
+        const gitHubUrl = 'https://twitter.com/Pintu_Kumar_24';
         window.open(gitHubUrl, '_blank');
      }
 
