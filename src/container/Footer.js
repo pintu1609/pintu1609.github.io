@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const Footer = () => {
   return (
-    <div>
+    <div >
 
         <div className="d-flex justify-content-center" >
         <p className="footer-text" style={{ color: '#808eab', fontWeight:'bold' }}>
