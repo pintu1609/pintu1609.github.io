@@ -72,7 +72,7 @@ const HomeItem = () => {
                     <img src="Images/instagram.jpeg" className="rounded-circle" style={{height:'35px', width:'35px', cursor:'pointer'}} onClick={handleInstaClick} alt="..."/>
                 </div>
             </div>
-<div className='button-container'data-aos="fade-right"data-aos-duration="1500" data-aos-delay="3000">
+<div className='button-container'data-aos="fade-right"data-aos-duration="1500" data-aos-delay="2000">
 
             <button type="button" className=" button-hover " onClick={handleGitHubClick}><i className="fa-solid fa-star fa-sm mx-2" style={{color: '#cdb01d'}}></i>Star Me On Github</button>
 </div>
