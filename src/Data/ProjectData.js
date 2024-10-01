@@ -58,7 +58,7 @@ const projectdata=[
                 "title":"Analysis of risk factor in Northern Indian",
                 "duration":"Jan. 2023 - April 2023",
                 "body":"This study investigates the interconnected dynamics of hazards, their vulnerability, and their implications on the environment, resulting in an elevated risk of fatalities. It seeks to understand the complex relationship between these factors and their consequences on human and ecological well-being.",
-                "projectlink":"https://drive.google.com/file/d/19NwdyXu5p9_SknN3Sr_-Um-GD0Dcn5f5/view?usp=drive_link",
+                "projectlink":"https://drive.google.com/file/d/1LTsznwAaFXWds1gunp7is2wvOV-FFmHR/view?usp=drive_link",
                 "user_id":5
     
             },
